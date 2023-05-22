@@ -783,10 +783,10 @@ footer {
   opacity: 1;
 }
 
-.form-input:focus ~ .form-icon, .form-input:focus ~ .form-icons {
+.form-input:focus ~ .form-icon,
+.form-input:focus ~ .form-icons {
   fill: var(--button-color);
 }
-
 
 .form-textarea-input {
   width: 100%;
@@ -937,7 +937,6 @@ textarea {
 .footer-btn:hover,
 .footer-btn:focus {
   background-color: var(--hover-color);
-  
 }
 
 .footer-btn-text {
